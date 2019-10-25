@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Side_menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+    <button class="sidenav" onmousedown="viewDiv()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </button>
+    <ul class="menu">
+        <li class="item">
+            <a href="#acc1">One</a>
+            <ul id="acc1">
+                <li><a>Some content</a></li>
+                <li><a>Some content</a></li>
+                <li><a>Some content</a></li>
+            </ul>
+        </li>
+        <li class="item">
+            <a href="#acc2">Two</a>
+            <ul id="acc2">
+                <li><a>Some content</a></li>
+                <li><a>Some content</a></li>
+            </ul>
+        </li>
+        <li class="item">
+            <a href="#acc3">Three</a>
+            <ul id="acc3">
+                <li><a>content</a></li>
+                <li><a>content</a></li>
+                <li><a>content</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div id="secondNav">
+        <button class="sidenav">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </button>
+        <ul class="menu">
+            <li class="item">
+                <a href="#acc1">One</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
